@@ -1,0 +1,17 @@
+{
+  "name": "reframe-the-task",
+  "version": "0.1.0",
+  "description": "Challenge a familiar approach, clarify the intended outcome, and recommend a better solution with selective interviewing.",
+  "author": {
+    "name": "ekeric13"
+  },
+  "keywords": [
+    "problem-solving",
+    "strategy",
+    "interview",
+    "prompting"
+  ],
+  "skills": [
+    "./reframe-the-task"
+  ]
+}

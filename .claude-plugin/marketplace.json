@@ -1,0 +1,21 @@
+{
+  "name": "reframe-the-task",
+  "owner": {
+    "name": "ekeric13"
+  },
+  "description": "A Claude Code plugin marketplace for the Reframe the Task skill.",
+  "plugins": [
+    {
+      "name": "reframe-the-task",
+      "source": "./",
+      "description": "Challenge a familiar approach, clarify the intended outcome, and recommend a better solution with selective interviewing.",
+      "category": "productivity",
+      "keywords": [
+        "problem-solving",
+        "strategy",
+        "interview",
+        "prompting"
+      ]
+    }
+  ]
+}

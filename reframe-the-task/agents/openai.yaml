@@ -1,0 +1,4 @@
+interface:
+  display_name: "Reframe the Task"
+  short_description: "Find a better approach to the outcome you want"
+  default_prompt: "Use $reframe-the-task to examine whether my current approach is the best way to achieve the outcome; ask a focused question at a time only where context could change the recommendation."
