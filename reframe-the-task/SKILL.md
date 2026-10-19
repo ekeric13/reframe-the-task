@@ -1,9 +1,12 @@
 ---
 name: reframe-the-task
 description: Reconsider an approach by identifying the outcome behind a task and comparing better ways to achieve it. Use when the user knows the domain but suspects their current solution, workflow, or requested deliverable may be the wrong approach, or asks to challenge assumptions and explore alternatives. Interview only when missing context could change the recommendation.
+disable-model-invocation: true
 ---
 
 # Reframe the Task
+
+Only use this skill when the user explicitly invokes it; never select it automatically.
 
 Help a knowledgeable user examine whether their current approach is the best route to the outcome they want. Treat their domain knowledge and existing constraints as evidence. Challenge the approach with concrete alternatives, without assuming that a broader assignment is better.
 

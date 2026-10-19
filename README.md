@@ -8,6 +8,10 @@ Use it when you know the domain but suspect there is a better solution than the 
 
 It reads available context first and asks one consequential question at a time only when the answer could change the recommendation. It stops interviewing when it can make a useful recommendation. Ask for a rewritten prompt, advice, or execution; a bare invocation explores and recommends.
 
+## Explicit Invocation Only
+
+This skill runs only when you explicitly invoke it. Codex uses `policy.allow_implicit_invocation: false` in `agents/openai.yaml`; Claude Code uses `disable-model-invocation: true` in the skill frontmatter. Other harnesses must support an equivalent policy to enforce this behavior.
+
 ## Install With skills.sh
 
 Authenticate to GitHub with an account that can read this private repository before installing.
